@@ -29,7 +29,7 @@ public class LetterCombinationsofaPhoneNumber {
 // digits[i] is a digit in the range ['2', '9'].
 
     // Solution 1
-    class Solution {
+    class Solution1 {
         Map<String, String> phone = new HashMap<String, String>() {{
             put("2", "abc");
             put("3", "def");
@@ -72,7 +72,7 @@ public class LetterCombinationsofaPhoneNumber {
 // Memory Usage: 38.1 MB, less than 90.82% of Java online submissions for Letter Combinations of a Phone Number.
 
     // Solution 2
-    class Solution {
+    class Solution2{
         public List<String> letterCombinations(String digits) {
             List<String> ans = new ArrayList<>();
 
